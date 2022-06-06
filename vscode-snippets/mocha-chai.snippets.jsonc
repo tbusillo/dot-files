@@ -1,0 +1,73 @@
+{
+	"Describeit": {
+		"prefix": "descit",
+		"body": [
+		  "describe('with something happening', () => {",
+		  "    it('does something', async() => {",
+		  "",
+		  "    })",
+		  "})"
+		],
+		"description": "Empty describe/it block for mocha/chai tests"
+	  },
+	  
+	  "mocha describe/it with render": {
+		"prefix": "descitrender",
+		"body": [
+		  "describe('with something happening', () => {",
+		  "    it('does something', async() => {",
+		  "        renders(<Component>Some text</Component>)",
+		  "    })",
+		  "})"
+		],
+		"description": "mocha describe/it with render"
+	  },
+
+	  "it block for testing": {
+		"prefix": "it",
+		"body": [
+		  "it('does something else', async () => {",
+		  "",
+		  "})"
+		],
+		"description": "it block for testing"
+	  },
+
+	  "before/after": {
+		"prefix": "beforeafter",
+		"body": [
+		  "before(async () => ",
+		  "",
+		  "})",
+		  "",
+		  "after(async () => {",
+		  "",
+		  "})"
+		],
+		"description": "before/after"
+	  },
+
+	  "before each and after each": {
+		"prefix": "beforeaftereach",
+		"body": [
+		  "beforeEach(async () => ",
+		  "",
+		  "})",
+		  "",
+		  "after(() => {",
+		  "",
+		  "})"
+		],
+		"description": "before each and after each"
+	  },
+
+	  "waitFor": {
+		"prefix": "waitfor",
+		"body": [
+		  "await waitFor(() => {",
+		  "",
+		  "});"
+		],
+		"description": "waitFor"
+	  }
+}
