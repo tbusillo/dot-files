@@ -36,7 +36,7 @@
 	  "before/after": {
 		"prefix": "beforeafter",
 		"body": [
-		  "before(async () => ",
+		  "before(async () => {",
 		  "",
 		  "})",
 		  "",
@@ -50,11 +50,11 @@
 	  "before each and after each": {
 		"prefix": "beforeaftereach",
 		"body": [
-		  "beforeEach(async () => ",
+		  "beforeEach(async () => {",
 		  "",
 		  "})",
 		  "",
-		  "after(() => {",
+		  "afterEach(() => {",
 		  "",
 		  "})"
 		],
