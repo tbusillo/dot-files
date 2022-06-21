@@ -69,5 +69,21 @@
 		  "});"
 		],
 		"description": "waitFor"
+	  },
+
+	  "logplayground": {
+		"prefix": "logplayground",
+		"body": [
+		  "screen.logTestingPlaygroundURL()"
+		],
+		"description": "logplayground"
+	  },
+
+	  "debug": {
+		"prefix": "screendebug",
+		"body": [
+		  "screen.debug();"
+		],
+		"description": "debug"
 	  }
 }
